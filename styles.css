@@ -387,6 +387,34 @@ footer {
   }
 }
 
+.direct-contact {
+  margin-top: 40px;
+  padding-top: 25px;
+  border-top: 1px solid #e2e8f0;
+  text-align: center;
+}
+
+.direct-contact h2 {
+  margin-bottom: 15px;
+  color: var(--blue-dark);
+  font-size: 1.4rem;
+}
+
+.direct-contact p {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+.direct-contact a {
+  color: var(--blue-main);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.direct-contact a:hover {
+  text-decoration: underline;
+}
+
 /* Burger animation */
 /* FIXED TYPO HERE */
 .burger.active span:nth-child(1) {
