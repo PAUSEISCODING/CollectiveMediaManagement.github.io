@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book a Call | Collective Media Management</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="nav-left">
+      <div class="logo">Collective Media Management</div>
+    </div>
+
+    <button class="burger" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="booking.html">Booking</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <!-- Booking Section -->
+  <section class="booking">
+    <h1>Book a Free Discovery Call</h1>
+
+    <p class="booking-intro">
+      Use the form below to get in touch. Tell us about your business and your goals,
+      and we will arrange a free consultation.
+    </p>
+
+    <form class="booking-form">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="business">Business Name</label>
+        <input type="text" id="business" name="business">
+      </div>
+
+      <div class="form-group">
+        <label for="message">Tell us about your project</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+
+      <button type="submit">Submit Enquiry</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Collective Media Management. All rights reserved.</p>
+  </footer>
+
+  <script src="nav.js"></script>
+</body>
+</html>
